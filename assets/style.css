@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-btn {
+    margin: 5px;
+    width: 34em;
+    border-radius: 1em;
+}
+
+header {
+    background-color: rgb(94, 94, 255);
+}
+ 
+h1 {
+    padding: 9px;
+    color: azure;
+}
+
+main {
+    background-color: rgb(94, 94, 255);   
+    display: flex;
+}
