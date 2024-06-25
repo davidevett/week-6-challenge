@@ -15,14 +15,35 @@ body {
 
 header {
     background-color: rgb(94, 94, 255);
+    border-radius: 5px;
 }
- 
+
 h1 {
     padding: 9px;
     color: azure;
 }
 
 main {
-    background-color: rgb(94, 94, 255);   
+    margin-top: 5px;
+}
+
+.main-weather-card {
+    background-color: rgb(94, 94, 255);
+    text-align: center;
+    color: azure;
+    border-radius: 5px;
+}
+
+.five-day-section {
     display: flex;
+    justify-content: space-around;
+}
+
+.five-day-cards {
+    background-color: rgb(94, 94, 255);
+    text-align: center;
+    color: azure;
+    margin: 5px;
+    border-radius: 5px;
+
 }
